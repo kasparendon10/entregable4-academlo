@@ -1,0 +1,49 @@
+
+.container__app{
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color:white;
+  position: fixed;
+  top:0;
+  z-index: 80;
+}
+h1{
+  color: black;
+  margin-top: auto;
+  font-size: 30px;
+  margin: auto;
+}
+
+button {
+  color: white;
+  width: 140px;
+  height: 30px;
+  background-color: blue;
+  color: black;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-left: auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+  button {
+    width: 200px;
+    height: 40px;
+  }
+}
